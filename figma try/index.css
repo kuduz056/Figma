@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(245, 241, 241, 0.842);;
+    justify-content:center;
+    display:block;
+    text-align: center;
+    padding: 4em;
+    font-family: sans-serif;
+}
+section#style2{
+    background-color:rgba(245, 241, 241, 0.842);;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    height: 28em;
+    font-size: 16px;
+   
+    
+}
+section div#guardian{
+    background-color:white;
+   
+    text-align: left;
+    width: auto;
+    margin-right:0;
+    padding:1em 1.0em 1em 1.5em;
+    width:20em;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+  div#mage{
+    background-color:black;
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+    display:inline-block;
+    height:100%;
+    text-align: left;
+    padding:1em 1em 1em 1.5em;
+    width:20em;
+    top:24em;
+    z-index: 1;
+    position: relative;
+   height: 28em;
+   font-size:16px;
+}
+section#style1{
+    display:block;
+    justify-content:space-around;
+    font-size: 20px;
+    background-color:rgba(245, 241, 241, 0.842);
+    position: relative;
+    top:-20em;
+    z-index:1;
+    opacity:1;
+    height: 1em;
+}
+section div#phanthom{
+    background-color:white;
+    padding:1em 1em 1em 1.5em;
+    text-align: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:20em;
+}
+section div#inner{
+width: 20em;
+background-color:white;
+}
+header{
+    margin-bottom: 6em;
+}
+p img{
+    height: 15px;
+    width: 15px;
+   margin-right: 3px;
+}
+section#style2  button{
+    background-color:rgb(248, 234, 237);
+    color:rgb(241, 50, 161) ;
+    border-radius:5px;
+    width: 90%;
+    height: 3em;
+    border:none;
+}
+
+ section#style2 button:hover{
+    background-color:rgb(241, 50, 161);
+    color:rgb(248, 234, 237);
+}
+div#mage button:hover{
+    background-color:rgb(248, 234, 237) ;
+    color:rgb(241, 50, 161);
+}
+div#mage button{
+    background-color:rgb(241, 50, 161);
+    color: white; 
+    width: 97%;
+    height: 3em;
+    border-radius: 5px;
+    border:none;
+    
+    
+}
+@media screen and (max-width:880px) {
+    body{
+        background-color: rgba(245, 241, 241, 0.842);
+        display: grid;
+
+    }
+    section#style2,section#style1{
+        display:grid;
+        position: relative;
+    }
+    div#mage{
+        position:relative;
+    top:55.4em;
+    border-radius:0;
+    }
+    section div#guardian{
+        margin-bottom: 23.2em;
+        border:none;
+        border-radius: 0;
+    }
+    div#inner{
+        visibility: hidden;
+    }
+    section div#phanthom{
+        border:none;
+        border-radius: 0;
+    }
+
+}
